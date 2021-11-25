@@ -1,0 +1,87 @@
+*,
+::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: #172b4d;
+  padding: 0;
+  margin: 0;
+}
+
+.header--section {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 24px;
+}
+
+.main--container {
+  width: 100%;
+}
+
+a {
+  font-size: 20px;
+  color: #000;
+  line-height: 28px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.main--section {
+  display: flex;
+  width: 100%;
+  padding: 64px 24px;
+  background-image: url(./assets/back-img/header-illsutration-mobile@3x.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  line-height: 52px;
+  margin: 0;
+}
+
+.section--title span {
+  color: #36b37e;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.paragraphe {
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.social--icons {
+  padding: 0;
+  margin: 0;
+}
+
+.social--icons li {
+  padding-top: 58px;
+  margin-right: 20px;
+}
+
+.d-flex {
+  display: flex;
+  flex-grow: 1;
+}
+
+.arrow--icons {
+  margin-top: 30px;
+  padding-top: 64px;
+}
