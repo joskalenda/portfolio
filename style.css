@@ -144,15 +144,32 @@ ul {
 
 .btn {
   padding: 0 11px;
-  border: none;
+  font-size: 12px;
+  line-height: 16px;
   width: auto;
   height: 32px;
   font-weight: bold;
+  border: none;
   color: #3a4a42;
   background: #ebf0ee;
   border-radius: 4px;
-  font-size: 12px;
-  line-height: 16px;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+
+.btn:enabled {
+  background: #36b37f;
+  color: #fff;
+}
+
+.btn:hover {
+  background: #36b37f;
+  box-shadow: 0 8px 16px rgba(54, 179, 0.24);
+}
+
+.btn:active {
+  background: #008552;
+  color: #fff;
 }
 
 .see--project {
