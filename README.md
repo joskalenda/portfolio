@@ -4,8 +4,7 @@
 
 > Personal portfolio website
 
-![127 0 0 1_5500_index html](https://user-images.githubusercontent.com/77843050/143435530-94e24550-9803-46fd-928e-434ba433febb.png)
-
+![127 0 0 1_5500_index html(iPhone 6_7_8)](https://user-images.githubusercontent.com/77843050/143677066-188e9795-e5bc-489a-be2a-48f29f32abbb.png)
 Additional description about the project and its features.
 
 ## Built With
