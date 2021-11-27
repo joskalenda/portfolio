@@ -4,7 +4,7 @@
 
 > Personal portfolio website
 
-![127 0 0 1_5500_index html](https://user-images.githubusercontent.com/77843050/143435530-94e24550-9803-46fd-928e-434ba433febb.png)
+![127 0 0 1_5500_index html](https://user-images.githubusercontent.com/77843050/143680471-a550d662-037d-4774-81f3-bd986f3b544f.png)
 
 Additional description about the project and its features.
 
@@ -20,7 +20,7 @@ Additional description about the project and its features.
 👤 **Author1**
 
 - GitHub: [@Jos Kalenda](https://github.com/joskalenda)
-- LinkedIn: [Jos Kalenda](https://www.linkedin.com/in/jos-kalenda-908069205/)
+- LinkedIn: [@Jos Kalenda](https://www.linkedin.com/in/jos-kalenda-908069205/)
 
 ## 🤝 Contributing
 
