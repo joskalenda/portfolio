@@ -66,7 +66,9 @@ ul {
   margin: 30px 0;
 }
 
-.social--icons {
+.social--icons,
+.contact--icons,
+.contact--social--icons {
   padding: 0;
   margin: 0;
 }
@@ -236,7 +238,6 @@ ul {
 }
 
 .see--project {
-  /* padding-top: 29px; */
   padding-bottom: 24px;
   margin: 0;
 }
@@ -291,4 +292,76 @@ ul {
 .li--section {
   margin: 0;
   padding: 0;
+}
+
+.contact--section {
+  padding: 64px 24px;
+  text-align: center;
+  background: url(./assets/back-img/illustration-contact-form@2x.png);
+  background-repeat: no-repeat;
+  background-size: 15%;
+  background-position: bottom right;
+  padding-bottom: 0;
+}
+
+.form--section {
+  padding: 50px 0;
+  margin: 0;
+  padding-bottom: 0;
+}
+
+.contact--ul--section {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  gap: 24px;
+}
+
+.input--section {
+  color: #6b778c;
+  padding: 12px;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  width: 327px;
+  height: 48px;
+}
+
+.text--area {
+  width: 327px;
+  height: 114px;
+  padding: 12px;
+  color: #091e42;
+  border: 1px solid #60c095;
+  border-radius: 4px;
+}
+
+.contact--section--icons {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.contact--social--icons {
+  display: flex;
+  padding: 12px;
+  margin: 0;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.mail {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.mail li a {
+  margin-top: 10px;
+  padding: 12px;
+  color: #42526e;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: 'Inter', sans-serif;
 }
