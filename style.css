@@ -365,3 +365,9 @@ ul {
   font-weight: normal;
   font-family: 'Inter', sans-serif;
 }
+
+.footer--section--icons,
+.desk--contact--section,
+.nav-menu {
+  display: none;
+}
