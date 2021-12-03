@@ -7,11 +7,11 @@
 
 | Mobile version representation.|
 |---------------------------------------|
-|![screenshot](./images/mobile.png/)|
+|![screenshot](./assets/mobile.png/)|
 
 | Desktop version representation. |
 |---------------------------------------|
-|![screenshot](./images/desktop.png)|
+|![screenshot](./assets/desktop.png)|
 
 > Project's principle obecjtives: 
 
