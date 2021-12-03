@@ -3,8 +3,22 @@
 # portfolio
 
 > Personal portfolio website
+## Description 
 
-![127 0 0 1_5500_index html](https://user-images.githubusercontent.com/77843050/143680471-a550d662-037d-4774-81f3-bd986f3b544f.png)
+| Mobile version representation.|
+|---------------------------------------|
+|![screenshot](./images/mobile.png/)|
+
+| Desktop version representation. |
+|---------------------------------------|
+|![screenshot](./images/desktop.png)|
+
+> Project's principle obecjtives: 
+
+- Use CSS Grid & Flexbox to place elements on the page.
+- Understand how to parse a Figma design to create a UI.
+- Create forms with HTML5 validations.
+- Understand how to create UIs adaptable to different screen sizes using Media Queries.
 
 Additional description about the project and its features.
 
@@ -12,8 +26,6 @@ Additional description about the project and its features.
 
 - html
 - css
-
-
 
 ## Authors
 
