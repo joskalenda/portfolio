@@ -1,3 +1,9 @@
+*,
+::before,
+*::after {
+  box-sizing: border-box;
+}
+
 @media (min-width: 992px) {
   body {
     padding: 0;
@@ -8,6 +14,32 @@
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     color: #172b4d;
+  }
+
+  .btn {
+    padding: 0 11px;
+    font-size: 16px;
+    line-height: 16px;
+    width: auto;
+    height: 32px;
+    font-weight: bold;
+    border: none;
+    color: #3a4a42;
+    background: #ebecf0;
+    border-radius: 4px;
+  }
+
+  .btn--frame {
+    padding: 0 11px;
+    font-size: 16px;
+    line-height: 16px;
+    background-color: #fff;
+    color: #36b37e;
+    width: auto;
+    height: 40px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
   }
 
   h1 {
@@ -73,7 +105,7 @@
     padding: 12px;
     margin: 24px;
   }
-  
+
   .social--icons li {
     padding-top: 58px;
     margin-right: 20px;
@@ -88,9 +120,9 @@
     grid-auto-rows: 474px;
     height: auto;
     text-align: center;
-    padding: 20px 750px;
+    padding: 0 750px;
     padding-top: 24px;
-    margin: 90px;
+    margin-top: 90px;
   }
 
   .main--frames--section {
@@ -114,7 +146,6 @@
 
   .intro--section {
     text-align: center;
-    border: 1px solid #0609a8;
     justify-content: center;
     padding-bottom: 63px;
     margin: 0;
@@ -122,7 +153,6 @@
   }
 
   .about-title {
-    border: 4px solid #a81e06;
     margin: 0;
     padding-top: 192px;
   }
@@ -135,8 +165,9 @@
 
   .about--me--section {
     margin: 0;
-    border: 1px solid #d9d2d0;
     padding: 0;
+    text-align: center;
+    justify-content: center;
     background: none;
     background-image:
       url(./assets/back-img/illustration-left-about-me-2-desktop@2x.png),
@@ -144,8 +175,6 @@
     background-position: left 27%, right 3%;
     background-size: 11%;
     background-repeat: no-repeat;
-    text-align: center;
-    justify-content: center;
   }
 
   .frame--work--section {
