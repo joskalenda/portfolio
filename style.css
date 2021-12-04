@@ -14,6 +14,13 @@ body {
   margin: 0;
 }
 
+.footer--section--icons,
+.desk--contact--section,
+.nav-menu,
+.nav-link {
+  display: none;
+}
+
 .header--section {
   display: flex;
   justify-content: space-between;
@@ -260,7 +267,6 @@ ul {
   justify-content: center;
   font-size: 17px;
   height: 40px;
-  width: 122px;
 }
 
 .frame--container img {
@@ -364,10 +370,4 @@ ul {
   font-size: 20px;
   font-weight: normal;
   font-family: 'Inter', sans-serif;
-}
-
-.footer--section--icons,
-.desk--contact--section,
-.nav-menu {
-  display: none;
 }
