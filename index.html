@@ -6,14 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>  
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style-desktop.css">
   <title>Portfolio</title>
 </head>
 <body>
   <header class="header--section">
-    <a href="#">Welcome</a>
+    <a href="#" class="logo">Welcome</a>
     <nav class="nav--container">
-      <span id="humburger"><i class="fa humburger fa-bars"></i></span>
-         </nav>
+      <ul class="nav-menu d-flex">
+        <li class="nav-link"><a href="#works">Portoflio</a></li>
+        <li class="nav-link"><a href="#about">About</a></li>
+        <li class="nav-link"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <span id="humburger"><i class="fa humburger fa-bars"></i></span>
   </header>
   <main class="main--container">
     <section class="main--section">
@@ -66,7 +72,7 @@
       </a>
     </div>
     </section>
-    <section class="recent--work--section">
+    <section class="recent--work--section" id="works">
       <div class="recent--work--title">
         <h1>My Recent Works</h1>
         <img src="./assets/back-img/Indicator.svg" alt="line-indicator">
@@ -176,7 +182,7 @@
         </li>
       </ul> 
     </section>
-    <section class="about--me--section">
+    <section class="about--me--section" id="about">
       <div class="intro--section">
         <div class="about-title">
           <h1>About me</h1>
@@ -269,7 +275,7 @@
 
       </ul>
     </section>  
-    <section class="contact--section">
+    <section class="contact--section" id="contact">
       <div class="contact--intro">
         <h1>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h1>
       </div>
@@ -289,6 +295,23 @@
             <button type="submit" class="btn--style">Get in touch</button>
           </div>
         </div>
+        
+        <div class="desk--contact--section">
+          <div class="li--section">
+            <input type="text" class="desk--input--section" name="name" placeholder="Full name" maxlength="30" required>
+          </div>
+          <div class="li--section">
+            <input type="email" class="email--desk--section" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+            placeholder="Email address" required>
+          </div>
+          <div class="li--section">
+            <textarea name="message" class="desk--text--area" placeholder="Typing something" maxlength="500" required></textarea>
+          </div>
+          <div class="see--project">
+            <button type="submit" class="btn--style">Get in touch</button>
+          </div>
+        </div>
+
       </form>
       <div class="contact--section--icons"> 
         <ul class="contact--social--icons"> 
@@ -325,15 +348,45 @@
       </div>
     </section>
   </main>
-  <footer>
+  <footer class="footer--section">
+    <div class="footer--section--icons"> 
+      <ul class="footer--social--icons"> 
+        <li>
+          <a href="https://github.com/joskalenda">
+            <img src="./assets/icons/github.png" alt="github account">
+          </a>
+        </li>
+        
+        <li>
+          <a href="https://www.linkedin.com/in/jos-kalenda-908069205">
+            <img src="./assets/icons/linkedin.png" alt="linkedin account">
+          </a>
+        </li>
+
+        <li>
+          <a href="**">
+            <img src="./assets/icons/peace.png" alt="peace">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.twitter.com/in/joskalenda">
+            <img src="./assets/icons/twitter.png" alt="twitter account">
+          </a>
+        </li>
+        
+        <li>
+          <a href="#">
+            <img src="./assets/icons/medium.png" alt="meduim">
+          </a>
+        </li>
+      </ul>
+    </div>
     <ul class="mail">
       <li>
         <a href="#">joskalenda3@gmail.com</a>
       </li> 
     </ul>
-  </footer>
-      
-      
-  
+  </footer> 
 </body>
 </html>
