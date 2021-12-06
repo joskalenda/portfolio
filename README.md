@@ -27,6 +27,10 @@ Additional description about the project and its features.
 - html
 - css
 
+## Live Demo
+
+[Live Demo Link](https://joskalenda.github.io/portfolio/)
+
 ## Authors
 
 👤 **Author1**
