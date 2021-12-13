@@ -377,14 +377,14 @@ ul {
 }
 
 .nav-overlay {
-position: absolute;
-height: 100%;
-width: 100%;
-top: 0px;
-background: #FFFFFF;
-mix-blend-mode: normal;
-box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
-border-radius: 0 0 35px 35px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background: #fff;
+  mix-blend-mode: normal;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  border-radius: 0 0 35px 35px;
 }
 
 .scroll {
@@ -395,7 +395,7 @@ border-radius: 0 0 35px 35px;
   display: flex;
   flex-direction: column;
   text-align: left;
-  gap: 40px; 
+  gap: 40px;
 }
 
 .overlay-menu li a {
@@ -411,5 +411,3 @@ border-radius: 0 0 35px 35px;
   text-align: right;
   padding: 38px;
 }
-
-
