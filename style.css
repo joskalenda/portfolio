@@ -371,3 +371,19 @@ ul {
   font-weight: normal;
   font-family: 'Inter', sans-serif;
 }
+
+/* .off-display {
+  display: none;
+} */
+
+.nav-overlay {
+  position: fixed;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
+.nav-overlay .menu-nav {
+  color: black;
+}
