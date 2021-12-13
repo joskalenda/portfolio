@@ -1,17 +1,19 @@
-let navOverlay = document.querySelector('.nav-overlay');
-let navHumburger = document.querySelector('.nav-humburger');
-let xIcon = document.querySelector('.xicon-image');
-let overlayNav = document.querySelectorAll('.overlay-link');
+const navOverlay = document.querySelector('.nav-overlay');
+const navHumburger = document.querySelector('.nav-humburger');
+const xIcon = document.querySelector('.xicon-image');
+const overlayNav = document.querySelectorAll('.overlay-link');
 
 
 function displayOn(){
   navOverlay.classList.remove('off-display');
   document.body.classList.add('scroll');
 }
+
+
 function displayOff(){
   navOverlay.classList.add('off-display');
   document.body.classList.remove('scroll');
-  for (let j=0; j < overlayNav.length; j++){
+  for (let j=0; j < overlayNav.length; j+=1){
     overlayNav[j].addEventListener('click',displayOff);
   }
 }
