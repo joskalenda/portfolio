@@ -17,7 +17,8 @@
   .contact--section--icons,
   .mail,
   .humburger,
-  .logo {
+  .logo,
+  .nav-overlay {
     display: none;
   }
 

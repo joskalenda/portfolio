@@ -371,3 +371,43 @@ ul {
   font-weight: normal;
   font-family: 'Inter', sans-serif;
 }
+
+.off-display {
+  display: none;
+}
+
+.nav-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background: #fff;
+  mix-blend-mode: normal;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  border-radius: 0 0 35px 35px;
+}
+
+.scroll {
+  overflow: hidden;
+}
+
+.overlay-menu {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 40px;
+}
+
+.overlay-menu li a {
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 600;
+  color: #3a4a42;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+}
+
+.xicon-image {
+  text-align: right;
+  padding: 38px;
+}
