@@ -23,3 +23,41 @@ overlayNav.addEventListener('click', displayOff);
 // Start pop up window Array
 const main_works_section = document.querySelector('.main--works--section');
 const popupContainer = document.querySelector('main .popup--container');
+
+const projects = [
+  {
+    id: 'project_1',
+    images: {
+      img: './images/Snapshoot-Portfolio-mobile1@2x.png',
+      cancelPop: './images/icons/Disabled@2x.png',
+      altText: 'project 1 preview image',
+    },
+    name: 'Multi-Post Stories Gain+Glory_1',
+    heading: 'Keeping track of hundreds of components_1',
+    languages: [
+      'Ruby on Rails',
+      'Css',
+      'JavaScript',
+      'html',
+    ],
+    technologies: [
+      'Codekit',
+      'GitHub',
+      'Javascript',
+      'Bootstrap',
+      'Terminal',
+      'Codepen',
+    ],
+    // button: 'See Project',
+    description: 'Project_1 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    list: [
+      {
+        text: 'See Live',
+        icon: './assets/icons/Icon-Export@2x.svg',
+      },
+      {
+        text: 'See Source',
+        icon: './assets/icons/GitHub.svg',
+      },
+    ],
+  },
