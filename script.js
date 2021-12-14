@@ -264,3 +264,8 @@ function createCard(cardObject) {
 
   return li;
 }
+
+projects.forEach((project) => {
+  const card = createCard(project);
+  main_works_section.appendChild(card);
+});
