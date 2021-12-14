@@ -97,3 +97,148 @@ const projects = [
       },
     ],
   },
+  {
+    id: 'project_3',
+    images: {
+      img: './images/Snapshoot-Portfolio-mobile@2x.png',
+      cancelPop: './assets/icons/Disabled@2x.png',
+      altText: 'project 3 preview image',
+    },
+    name: 'Multi-Post Stories Gain+Glory_3',
+    heading: 'Keeping track of hundreds of components_3',
+    languages: [
+      'Ruby on Rails',
+      'Css',
+      'JavaScript',
+      'html',
+    ],
+    technologies: [
+      'Codekit',
+      'GitHub',
+      'Javascript',
+      'Bootstrap',
+      'Terminal',
+      'Codepen',
+    ],
+    // button: 'See Project',
+    description: 'Project_3 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    list: [
+      {
+        text: 'See Live',
+        icon: './assets/icons/Icon-Export@2x.svg',
+      },
+      {
+        text: 'See Source',
+        icon: './assets/icons/GitHub.svg',
+      },
+    ],
+  },
+  {
+    id: 'project_4',
+    images: {
+      img: './images/Snapshoot-Portfolio-mobile4@2x.png',
+      cancelPop: './assets/icons/Disabled@2x.png',
+      altText: 'project 4 preview image',
+    },
+    name: 'Multi-Post Stories Gain+Glory_4',
+    heading: 'Keeping track of hundreds of components_4',
+    languages: [
+      'Ruby on Rails',
+      'Css',
+      'JavaScript',
+      'html',
+    ],
+    technologies: [
+      'Codekit',
+      'GitHub',
+      'Javascript',
+      'Bootstrap',
+      'Terminal',
+      'Codepen',
+    ],
+    // button: 'See Project',
+    description: 'Project_4 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    list: [
+      {
+        text: 'See Live',
+        icon: './assets/icons/Icon-Export@2x.svg',
+      },
+      {
+        text: 'See Source',
+        icon: './assets/icons/GitHub.svg',
+      },
+    ],
+  },
+  {
+    id: 'project_5',
+    images: {
+      img: './images/Snapshoot-Portfolio-mobile5@2x.png',
+      cancelPop: './assets/icons/Disabled@2x.png',
+      altText: 'project 5 preview image',
+    },
+    name: 'Multi-Post Stories Gain+Glory_5',
+    heading: 'Keeping track of hundreds of components_5',
+    languages: [
+      'Ruby on Rails',
+      'Css',
+      'JavaScript',
+      'html',
+    ],
+    technologies: [
+      'Codekit',
+      'GitHub',
+      'Javascript',
+      'Bootstrap',
+      'Terminal',
+      'Codepen',
+    ],
+    // button: 'See Project',
+    description: 'Project_5 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    list: [
+      {
+        text: 'See Live',
+        icon: './assets/icons/Icon-Export@2x.svg',
+      },
+      {
+        text: 'See Source',
+        icon: '.assets/icons/GitHub.svg',
+      },
+    ],
+  },
+  {
+    id: 'project_6',
+    images: {
+      img: './images/Snapshoot-Portfolio-mobile6@2x.png',
+      cancelPop: './assets/icons/Disabled@2x.png',
+      altText: 'project 6 preview image',
+    },
+    name: 'Multi-Post Stories Gain+Glory_6',
+    heading: 'Keeping track of hundreds of components_6',
+    languages: [
+      'Ruby on Rails',
+      'Css',
+      'JavaScript',
+      'html',
+    ],
+    technologies: [
+      'Codekit',
+      'GitHub',
+      'Javascript',
+      'Bootstrap',
+      'Terminal',
+      'Codepen',
+    ],
+    // button: 'See Project',
+    description: 'Project_6 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    list: [
+      {
+        text: 'See Live',
+        icon: './assets/icons/Icon-Export@2x.svg',
+      },
+      {
+        text: 'See Source',
+        icon: './assets/icons/GitHub.svg',
+      },
+    ],
+  },
+];
