@@ -269,3 +269,30 @@ projects.forEach((project) => {
   const card = createCard(project);
   main_works_section.appendChild(card);
 });
+
+function createPopup(object) {
+  const popupCard = document.createElement('div');
+  popupCard.classList.add('card-popup');
+  popupCard.id = object.id;
+  popupCard.innerHTML = `
+  <div class="project-img">
+  <img class="hide-icon" src="./assets/icons/Disabled.svg" alt="close icon">
+  </div>
+  <div class="article">
+    <h4>${object.heading}</h3>
+    <ul class="program-lang d-flex">
+    ${object.languages.map((lang) => `<li class="btn tag_btn mobile-invisible"> 
+                                        ${lang}
+                                        </li>`).join('')}
+    ${object.technologies.map((tech) => `<li class="btn tag_btn desktop-invisible"> 
+                                        ${tech}
+                                        </li>`).join('')}
+    </ul>
+    <p>${object.description}</p>
+    <div class="btns-popup d-flex">
+      <button type="button" class="btn-card d-flex flex-center"><span>See Live</span><img src="./images/icons/Icon-Export@2x.svg" alt=""></button>
+      <button type="button" class="btn-card d-flex flex-center"><span>See Source</span><img src="./images/icons/Icon-GitHub-1.svg" alt=""></button>
+    </div>
+  </div>`;
+  return popupCard;
+}
