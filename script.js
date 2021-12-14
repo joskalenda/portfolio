@@ -242,3 +242,25 @@ const projects = [
     ],
   },
 ];
+
+function createCard(cardObject) {
+  const li = document.createElement('li');
+  li.className = 'card--section';
+  li.innerHTML = `<div class="image--container">
+  <img src="${cardObject.images.img}" alt="${cardObject.images.altText}">
+  </div>
+  <div class="btn--container">
+    <h4>${cardObject.name}</h4>
+    <ul class="ul--section">
+        <li class="li--section>
+           ${cardObject.languages.map((lang) => `<button class="btn">
+            ${lang}</button>`).join('')}
+        </li>
+    </ul>
+  </div>
+ <div class="see--project">
+ <button type="button" class="btn--style ${cardObject.id}">See Project</button>;
+</div>`
+
+  return li;
+}
