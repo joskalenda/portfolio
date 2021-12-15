@@ -18,8 +18,13 @@
   .mail,
   .humburger,
   .logo,
-  .nav-overlay {
+  .nav-overlay,
+  .mobile-invisible {
     display: none;
+  }
+
+  .desktop-invisible {
+    display: block;
   }
 
   .header--section {
@@ -313,5 +318,33 @@
   .footer--section {
     border-top: solid;
     border-top-color: #e5e5e5;
+  }
+
+  .card-popup .article {
+    padding-bottom: 44px;
+  }
+
+  .card-popup {
+    width: 70%;
+  }
+
+  .hide-icon {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    z-index: 5;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+  }
+
+  .card-popup .project-img {
+    margin-top: 78px;
+  }
+
+  .see--live {
+    position: absolute;
+    top: 20px;
+    right: 25px;
   }
 }
