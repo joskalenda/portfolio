@@ -44,7 +44,7 @@ a {
   width: 100%;
   padding: 64px 24px;
   padding-bottom: 0;
-  background-image: url(./assets/back-img/header-illsutration-mobile@3x.png);
+  background-image: url(../assets/back-img/header-illsutration-mobile@3x.png);
   background-size: contain;
   background-repeat: no-repeat;
   flex-direction: column;
@@ -107,7 +107,7 @@ ul {
 }
 
 .about--me--section {
-  background: url(./assets/back-img/frame1.png);
+  background: url(../assets/back-img/frame1.png);
   background-repeat: no-repeat;
   background-size: 88%;
   background-position: center top;
@@ -331,7 +331,7 @@ ul {
 .contact--section {
   padding: 64px 24px;
   text-align: center;
-  background: url(./assets/back-img/illustration-contact-form@2x.png);
+  background: url(../assets/back-img/illustration-contact-form@2x.png);
   background-repeat: no-repeat;
   background-size: 15%;
   background-position: bottom right;
