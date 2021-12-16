@@ -177,7 +177,7 @@
       <div class="contact--intro">
         <h1>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h1>
       </div>
-      <form class="form--section" action="https://formspree.io/f/xbjwrqlv" method="post">
+      <form id="validation-form" class="form--section" action="https://formspree.io/f/xbjwrqlv" method="post">
         <div class="contact--ul--section">
           <div class="li--section">
             <input type="text" class="input--section" name="name" placeholder="Full name" maxlength="30" required>
@@ -189,6 +189,7 @@
           <div class="li--section">
             <textarea name="message" class="text--area" placeholder="Enter text here" maxlength="500" required></textarea>
           </div>
+          <div id="div-validation"></div>
           <div class="see--project">
             <button type="submit" class="btn--style">Get in touch</button>
           </div>
