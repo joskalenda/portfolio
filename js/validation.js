@@ -11,18 +11,17 @@ message.style.fontWeight = '400';
 message.style.fontSize = '17px';
 message.style.visibility = 'hidden';
 
-form.addEventListener('submit', e => {
+form.addEventListener('submit', (e) => {
   e.preventDefault();
+  const checkValidation = () => {
+    const Validmail = email.value.toLowerCase();
+    if (email.value !== Validmail) {
+      message.style.visibility = 'visible';
+      email.style.border = '1px solid red';
+    } else {
+      message.style.visibility = 'hidden';
+      email.style.border = null;
+    }
+  };
   checkValidation();
 });
-
-const checkValidation = () => {
-   const Valid_mail = email.value.toLowerCase();
-  if (email.value !== Valid_mail) {
-    message.style.visibility = 'visible';
-    email.style.border = '1px solid red' 
-  } else {
-    message.style.visibility = 'hidden';
-    email.style.border = null;
-  } 
-}
