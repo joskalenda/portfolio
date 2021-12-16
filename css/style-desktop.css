@@ -269,7 +269,7 @@
     row-gap: 24px;
   }
 
-  .desk--input--section {
+  .input--section {
     color: #6b778c;
     padding: 12px;
     font-size: 16px;
@@ -279,17 +279,7 @@
     height: 48px;
   }
 
-  .email--desk--section {
-    color: #6b778c;
-    padding: 12px;
-    font-size: 16px;
-    border: 1px solid #d0d9d4;
-    border-radius: 4px;
-    width: 730px;
-    height: 48px;
-  }
-
-  .desk--text--area {
+  .text--area {
     width: 730px;
     font-size: 16px;
     height: 114px;
@@ -350,5 +340,9 @@
     position: absolute;
     top: 20px;
     right: 25px;
+  }
+
+  .error-msg {
+    justify-content: left;
   }
 }
