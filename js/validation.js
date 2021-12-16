@@ -8,7 +8,6 @@ message.innerText = text;
 message.style.color = '#36b37e';
 message.style.background = '#fff';
 message.style.fontWeight = '600';
-// message.style.fontSize = '17px';
 message.style.visibility = 'hidden';
 
 form.addEventListener('submit', (e) => {
