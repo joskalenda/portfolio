@@ -324,6 +324,10 @@
     padding-bottom: 44px;
   }
 
+  .article h4 {
+    width: 582px;
+  }
+
   .card-popup {
     width: 70%;
   }
