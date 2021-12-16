@@ -1,6 +1,6 @@
 // Start pop up window Array
 const htmls = document.getElementsByTagName('html')[0];
-const main_works_section = document.querySelector('.main--works--section');
+const mainWorkSection = document.querySelector('.main--works--section');
 const popupContainer = document.querySelector('.main--container .popup--container');
 
 const projects = [
@@ -237,17 +237,15 @@ function createCard(cardObject) {
   </div>
   <div class="see--project">
     <button type="button" class="btn--style ${cardObject.id}">See Project</button>
-  </div>`
+  </div>`;
 
   return li;
 }
 
 projects.forEach((project) => {
   const card = createCard(project);
-  main_works_section.appendChild(card);
+  mainWorkSection.appendChild(card);
 });
-
-
 
 function createPopup(object) {
   const popupCard = document.createElement('div');
