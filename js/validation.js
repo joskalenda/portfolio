@@ -9,12 +9,13 @@ message.style.color = '#36b37e';
 message.style.background = '#fff';
 message.style.fontWeight = '600';
 message.style.visibility = 'hidden';
-
+console.log(form);
+e.preventDefault();
 form.addEventListener('submit', (e) => {
+
   const checkValidation = () => {
     const Validmail = email.value.toLowerCase();
     if (email.value !== Validmail) {
-      e.preventDefault();
       message.style.visibility = 'visible';
       email.style.border = '1px solid red';
     } else {
