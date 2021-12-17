@@ -166,51 +166,34 @@
               <li class="li--section">
                 <button class="btn--frame" type="button">Terminal</button>
               </li>
-
             </ul>
           </div>
         </li>
-
       </ul>
     </section>  
     <section class="contact--section" id="contact">
       <div class="contact--intro">
         <h1>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h1>
       </div>
-      <form class="form--section" action="https://formspree.io/f/xbjwrqlv" method="post">
-        <div class="contact--ul--section">
+
+      <form id="form" class="form--section" action="https://formspree.io/f/xbjwrqlv" method="post">
+        <div class="contact--ul--section desk--contact--section">
           <div class="li--section">
             <input type="text" class="input--section" name="name" placeholder="Full name" maxlength="30" required>
           </div>
-          <div class="li--section">
-            <input type="email" class="input--section" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-            placeholder="Email address" required>
+          <div class="li-section">
+            <input id="email" type="email" class="input--section" name="email" placeholder="Email address" required>
           </div>
           <div class="li--section">
             <textarea name="message" class="text--area" placeholder="Enter text here" maxlength="500" required></textarea>
           </div>
+          <div class="error-msg"></div>
           <div class="see--project">
-            <button type="submit" class="btn--style">Get in touch</button>
+            <button type="submit" id="try" class="btn--style">Get in touch</button>
           </div>
         </div>
-        
-        <div class="desk--contact--section">
-          <div class="li--section">
-            <input type="text" class="desk--input--section" name="name" placeholder="Full name" maxlength="30" required>
-          </div>
-          <div class="li--section">
-            <input type="email" class="email--desk--section" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-            placeholder="Email address" required>
-          </div>
-          <div class="li--section">
-            <textarea name="message" class="desk--text--area" placeholder="Typing something" maxlength="500" required></textarea>
-          </div>
-          <div class="see--project">
-            <button type="submit" class="btn--style">Get in touch</button>
-          </div>
-        </div>
-
       </form>
+
       <div class="contact--section--icons"> 
         <ul class="contact--social--icons"> 
           <li>
@@ -298,5 +281,6 @@
   </div>
   <script src="./js/script.js"></script>
   <script src="./js/popup.js"></script>
+  <script src="./js/validation.js"></script>
 </body>
 </html>
