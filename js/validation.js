@@ -11,10 +11,10 @@ message.style.fontWeight = '600';
 message.style.visibility = 'hidden';
 
 form.addEventListener('submit', (e) => {
-  e.preventDefault();
   const checkValidation = () => {
     const Validmail = email.value.toLowerCase();
     if (email.value !== Validmail) {
+      e.preventDefault();
       message.style.visibility = 'visible';
       email.style.border = '1px solid red';
     } else {
