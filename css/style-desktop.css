@@ -170,8 +170,8 @@
   }
 
   .image--container:hover {
-    background-color: rgb(102, 161, 102);
-    opacity: 0.2;
+    background-color: rgba(233, 233, 233, 0.856);
+    opacity: 0.4;
     transition: all 0.3s ease-in-out;
   }
 

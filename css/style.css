@@ -141,13 +141,20 @@ ul {
   width: 100%;
   height: 100%;
   border: 1px solid #d0d9d4;
+  transition: 500ms ease-in;
   border-radius: 8px;
 }
+
+.card--section:hover {
+  transform: scale(0.95);
+}
+
 
 .frame--work--section {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  transition: 500ms ease-in;
   height: 100%;
   width: 327px;
   margin: 0;
@@ -156,6 +163,11 @@ ul {
   background: #ebf0ee;
   border-radius: 8px;
 }
+
+.frame--work--section:hover {
+  transform: scale(0.95);
+}
+
 
 .image--container {
   width: 100%;
