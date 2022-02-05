@@ -47,13 +47,12 @@ const projects = [
       cancelPop: './assets/icons/Disabled@2x.png',
       altText: 'project 2 preview image',
     },
-    name: 'Multi-Post Stories Gain+Glory',
+    name: 'Leader Board',
     heading: 'Keeping track of hundreds of components_2',
     languages: [
-      'Ruby on Rails',
-      'Css',
-      'JavaScript',
       'html',
+      'Css',
+      'ES6 JavaScript',
     ],
     technologies: [
       'Codekit',
@@ -119,7 +118,7 @@ const projects = [
       cancelPop: './assets/icons/Disabled@2x.png',
       altText: 'project 4 preview image',
     },
-    name: 'Multi-Post Stories Gain+Glory',
+    name: 'ToDo List project',
     heading: 'Keeping track of hundreds of components_4',
     languages: [
       'Ruby on Rails',
@@ -191,12 +190,12 @@ const projects = [
       cancelPop: './assets/icons/Disabled@2x.png',
       altText: 'project 6 preview image',
     },
-    name: 'Multi-Post Stories Gain+Glory',
+    name: 'Vision Technologies based API',
     heading: 'Keeping track of hundreds of components',
     languages: [
-      'Ruby on Rails',
+      'API',
       'Css',
-      'JavaScript',
+      'ES6 JavaScript',
       'html',
     ],
     technologies: [
