@@ -130,7 +130,7 @@ const projects = [
     ],
     // button: 'See Project',
     livelink:'',
-    description: 'Project_4 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    description: 'To do list is a simple Application to schedule tasks, we build this awesome product with plaint ES6 and Webpack server, this is what makes it more powerfully.',
     list: [
       {
         text: 'See Live',
