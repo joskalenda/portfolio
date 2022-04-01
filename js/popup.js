@@ -25,7 +25,7 @@ const projects = [
     ],
     // button: 'See Project',
     livelink: '',
-    description: 'Crisp protects the world from online exploitation, lies, threats, abuse and hate. our actor intelligent graph has redefined the way companies identify and mitigate risks.',
+    description: 'Our experts gather intelligence "from the outside in" across the surface, deep and dark web. We\'re policy aware, but not policy driven, so we can deliver the early-warning advantage Trust & Safety teams need over the individuals and groups who are planning to spread illegal and harmful content on platforms. Crisp protects the world from online exploitation, lies, threats, abuse and hate. our actor intelligent graph has redefined the way companies indentify and mitigate risks.',
     list: [
       {
         text: 'See Live',
