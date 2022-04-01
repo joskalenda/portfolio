@@ -236,6 +236,11 @@ ul {
   transition: all 0.25s ease-in-out;
 }
 
+.btn--style a {
+  color: rgb(248, 245, 245);
+  font-size: 16px;
+}
+
 .btn--style:enabled {
   background: #36b37f;
   color: #fff;

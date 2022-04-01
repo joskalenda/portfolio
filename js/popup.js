@@ -11,24 +11,21 @@ const projects = [
       cancelPop: './assets/icons/Disabled@2x.png',
       altText: 'project 1 preview image',
     },
-    name: 'Multi-Post Stories Gain+Glory',
-    heading: 'Keeping track of hundreds of components_1',
+    name: 'Crisp Corporate',
+    heading: 'CRISP COMPANY',
     languages: [
-      'Ruby on Rails',
       'Css',
       'JavaScript',
       'html',
     ],
     technologies: [
-      'Codekit',
       'GitHub',
       'Javascript',
-      'Bootstrap',
       'Terminal',
-      'Codepen',
     ],
     // button: 'See Project',
-    description: 'Project_1 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    livelink: '',
+    description: 'Crisp protects the world from online exploitation, lies, threats, abuse and hate. our actor intelligent graph has redefined the way companies identify and mitigate risks.',
     list: [
       {
         text: 'See Live',
@@ -48,22 +45,22 @@ const projects = [
       altText: 'project 2 preview image',
     },
     name: 'Leader Board',
-    heading: 'Keeping track of hundreds of components_2',
+    heading: 'LEADER BOARD',
     languages: [
       'html',
       'Css',
       'ES6 JavaScript',
     ],
     technologies: [
-      'Codekit',
-      'GitHub',
-      'Javascript',
-      'Bootstrap',
-      'Terminal',
-      'Codepen',
+      'Jest Testing',
+      'ECMA Script',
+      'Webpack',
+      'API',
+    
     ],
     // button: 'See Project',
-    description: 'Project_2 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    livelink: '',
+    description: 'The leader board is a small website system built to display players score according to the high rate',
     list: [
       {
         text: 'See Live',
@@ -99,6 +96,7 @@ const projects = [
       'Codepen',
     ],
     // button: 'See Project',
+    livelink: '',
     description: 'Project_3 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     list: [
       {
@@ -118,23 +116,20 @@ const projects = [
       cancelPop: './assets/icons/Disabled@2x.png',
       altText: 'project 4 preview image',
     },
-    name: 'ToDo List project',
-    heading: 'Keeping track of hundreds of components_4',
+    name: 'ToDo List',
+    heading: 'TODOList',
     languages: [
-      'Ruby on Rails',
       'Css',
       'JavaScript',
       'html',
     ],
     technologies: [
-      'Codekit',
       'GitHub',
       'Javascript',
-      'Bootstrap',
-      'Terminal',
-      'Codepen',
+      'Webpack',
     ],
     // button: 'See Project',
+    livelink:'',
     description: 'Project_4 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     list: [
       {
@@ -171,6 +166,7 @@ const projects = [
       'Codepen',
     ],
     // button: 'See Project',
+    livelink: '',
     description: 'Project_5 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     list: [
       {
@@ -190,8 +186,8 @@ const projects = [
       cancelPop: './assets/icons/Disabled@2x.png',
       altText: 'project 6 preview image',
     },
-    name: 'Vision Technologies based API',
-    heading: 'Keeping track of hundreds of components',
+    name: 'Vision Technologies',
+    heading: 'VISION TECH',
     languages: [
       'API',
       'Css',
@@ -199,15 +195,14 @@ const projects = [
       'html',
     ],
     technologies: [
-      'Codekit',
-      'GitHub',
+      'Webpack',
       'Javascript',
-      'Bootstrap',
       'Terminal',
-      'Codepen',
+      'Jest Testing',
     ],
     // button: 'See Project',
-    description: 'Project_6 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    livelink: '',
+    description: 'this project is talking about vision technologies that we are going to launch in the new few coming years, this is going to help users to some daily tasks and activities. The first feature among a million of this project is to update the user on every release of new technologies in the whole world It will give the user the ability to extract an event or anything posted from a link provided to the platform It will be an Open-source project allowing every dev to collaborate on some different projects Stay tuned for more features from our company',
     list: [
       {
         text: 'See Live',
@@ -267,8 +262,8 @@ function createPopup(object) {
     </ul>
     <p>${object.description}</p>
     <div class="see--live">
-      <button type="button" class="btn--style"><span>See Live</span><img src="./assets/icons/Icon-Export@2x.svg" alt=""></button>
-      <button type="button" class="btn--style"><span>See Source</span><img src="./assets/icons/GitHub.svg" alt=""></button>
+    <button type="button" class="btn--style"><a href="${object.link}">See Live</a><img src="./assets/icons/Icon-Export@2x.svg" alt=""></button>
+    <button type="button" class="btn--style"><a href="${object.link}">See Source</a><img src="./assets/icons/GitHub.svg" alt=""></button>
     </div>
   </div>`;
   return popupCard;
