@@ -59,7 +59,8 @@ const projects = [
     
     ],
     // button: 'See Project',
-    livelink: '',
+    livelink: 'https://musing-almeida-aa50b4.netlify.app/',
+    sourcelink:'https://github.com/joskalenda/leader-board',
     description: 'The leader board is a small website system built to display players score according to the high rate',
     list: [
       {
@@ -130,6 +131,7 @@ const projects = [
     ],
     // button: 'See Project',
     livelink:'',
+    sourcelink:'',
     description: 'To do list is a simple Application to schedule tasks, we build this awesome product with plaint ES6 and Webpack server, this is what makes it more powerfully.',
     list: [
       {
@@ -263,7 +265,7 @@ function createPopup(object) {
     <p>${object.description}</p>
     <div class="see--live">
     <button type="button" class="btn--style"><a href="${object.link}">See Live</a><img src="./assets/icons/Icon-Export@2x.svg" alt=""></button>
-    <button type="button" class="btn--style"><a href="${object.link}">See Source</a><img src="./assets/icons/GitHub.svg" alt=""></button>
+    <button type="button" class="btn--style"><a href="${object.sourcelink}">See Source</a><img src="./assets/icons/GitHub.svg" alt=""></button>
     </div>
   </div>`;
   return popupCard;
