@@ -264,7 +264,7 @@ function createPopup(object) {
     </ul>
     <p>${object.description}</p>
     <div class="see--live">
-    <button type="button" class="btn--style"><a href="${object.link}">See Live</a><img src="./assets/icons/Icon-Export@2x.svg" alt=""></button>
+    <button type="button" class="btn--style"><a href="${object.livelink}">See Live</a><img src="./assets/icons/Icon-Export@2x.svg" alt=""></button>
     <button type="button" class="btn--style"><a href="${object.sourcelink}">See Source</a><img src="./assets/icons/GitHub.svg" alt=""></button>
     </div>
   </div>`;
