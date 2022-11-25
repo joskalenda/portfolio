@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>  
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
     <title>Jos - Portfolio</title>
@@ -10,9 +11,6 @@
   <body>
     <header>
       <h1 id="logo">Jos Kalenda</h1>
-      <button type="button" class="menu-bars">
-        <i class="fas fa-bars"></i>
-      </button>
       <nav id="desktop-nav">
         <ul>
           <li><a class="nav-link" href="#projects">Portoflio</a></li>
@@ -24,6 +22,7 @@
           </li>
         </ul>
       </nav>
+      <span  class= "nav-humburger" id="humburger"><i class="fa humburger fa-bars"></i></span>
     </header>
     <main>
       <div class="intro">
@@ -416,10 +415,21 @@
         />
       </a>
     </footer>
+    <div class="nav-overlay off-display">
+      <div class="nav-mobile-container">
+        <div class="xicon-image"><img src="/assets/icons/xicon.png" alt="Exit Icon"></div>
+        <ul class="overlay-menu d-flex">
+          <li class="overlay-link"><a href="#works">Portoflio</a></li>
+          <li class="overlay-link"><a href="#about">About</a></li>
+          <li class="overlay-link"><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
 
     <script
       src="https://kit.fontawesome.com/e966a3bd22.js"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
