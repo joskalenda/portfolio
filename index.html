@@ -1,286 +1,299 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>  
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/style-desktop.css">
-  <title>Portfolio</title>
-</head>
-<body>
-  <header class="header--section">
-    <a href="#" class="logo">Jos</a>
-    <nav class="nav--container">
-      <ul class="nav-menu d-flex">
-        <li class="nav-link"><a href="#works">Portoflio</a></li>
-        <li class="nav-link"><a href="#about">About</a></li>
-        <li class="nav-link"><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <span  class= "nav-humburger" id="humburger"><i class="fa humburger fa-bars"></i></span>
-  </header>
-  <main class="main--container">
-    <section class="main--section">
-      <div class="section--title">
-        <h1>Hey there. I'm Jos Kalenda <br>
-          <span>I'm a software developer</span>
-        </h1>
-      </div>
-      <div class="paragraphe">
-        <p>I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-      </div>
-      <div class="section--icons">
-        <ul class="social--icons d-flex "> 
-          <li>
-            <a href="https://github.com/joskalenda">
-              <img src="./assets/icons/github.png" alt="github account">
-            </a>
-          </li>
-
-          <li>
-            <a href="https://www.linkedin.com/in/jos-kalenda-908069205">
-              <img src="./assets/icons/linkedin.png" alt="linkedin account">
-            </a>
-          </li>
-          <li>
-            <a href="**">
-              <img src="./assets/icons/peace.png" alt="peace">
-            </a>
-          </li>
-
-          <li>
-            <a href="https://www.twitter.com/in/joskalenda">
-              <img src="./assets/icons/twitter.png" alt="twitter account">
-            </a>
-          </li>
-
-          <li>
-            <a href="#">
-              <img src="./assets/icons/medium.png" alt="meduim">
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-    <div class="arrow--icons">
-      <a href="#">
-        <img src="./assets/icons/arrow-down.png" alt="scrolling">
-      </a>
-    </div>
-    </section>
-    <section class="recent--work--section" id="works">
-      <div class="recent--work--title">
-        <h1>My Recent Works</h1>
-        <img src="./assets/back-img/Indicator.svg" alt="line-indicator">
-      </div>
-      <ul class="main--works--section">
-      </ul> 
-    </section>
-    <section class="popup--container"></section>
-    <section class="about--me--section" id="about">
-      <div class="intro--section">
-        <div class="about-title">
-          <h1>About me</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Jos - Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="logo">Jos Kalenda</h1>
+      <button type="button" class="menu-bars">
+        <i class="fas fa-bars"></i>
+      </button>
+    </header>
+    <main>
+      <div class="intro">
+        <div class="intro-icon">
+          <img src="./media/svg/icon.svg" alt="Icon for the side" />
         </div>
-        <div class="paragraphe">
-          <p> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-            don’t hestiate to contact me.</p>
-        </div>
-        <div class="resume">
-          <button class="btn--style" type="button">Get My Resume</button>
-        </div>
-      </div>
-      <ul class="main--frames--section">
-        <li class="frame--work--section">
-          <div class="frame--container">
-            <img src="./assets/icons/icon-languages@2x.svg" alt="">
-          </div>
-          <div class="frame--btn--container">
-            <h4>Languages</h4>
-            <ul class="ul--section">
-              <li class="li--section">
-                <button class="btn--frame" type="button">JavaScript</button>
-              </li>
-              <li class="li--section">
-                <button class="btn--frame" type="button">Ruby</button>
-              </li>
-              <li class="li--section">
-                <button class="btn--frame" type="button">Html</button>
-              </li>
-              <li class="li--section">
-                <button class="btn--frame" type="button">CSS</button>
-              </li>
-            </ul>
-          </div>
-        </li>
-
-        <li class="frame--work--section">
-          <div class="frame--container">
-            <img src="./assets/icons/icon-frameworks.svg" alt="">
-          </div>
-          <div class="frame--btn--container">
-            <h4>Frameworks</h4>
-            <ul class="ul--section">
-              <li class="li--section">
-                <button class="btn--frame" type="button">Bootstrap</button>
-              </li>
-              <li class="li--section">
-                <button class="btn--frame" type="button">Ruby on rails</button>
-              </li>
-              <li class="li--section">
-                <button class="btn--frame" type="button">RSpec</button>
-              </li>
-              <li class="li--section">
-                <button class="btn--frame" type="button">Capybara</button>
-              </li>
-              <li class="li--section">
-                <button class="btn--frame" type="button">Selenium</button>
-              </li>
-            </ul>
-
-          </div>
-        </li>
-        <li class="frame--work--section">
-          <div class="frame--container">
-            <img src="./assets/icons/icon-languages@2x.svg" alt="">
-          </div>
-          <div class="frame--btn--container">
-            <h4>Skills</h4>
-            <ul class="ul--section">
-              
-              <li class="li--section">
-                <button class="btn--frame" type="button">Codekit</button>
-              </li>
-              <li class="li--section">
-                <button class="btn--frame" type="button">GitHub</button>
-              </li>
-              <li class="li--section">
-                <button class="btn--frame" type="button">Codepen</button>
-              </li>
-              <li class="li--section">
-                <button class="btn--frame" type="button">Gitlab</button>
-              </li>
-              <li class="li--section">
-                <button class="btn--frame" type="button">Terminal</button>
-              </li>
-            </ul>
-          </div>
-        </li>
-      </ul>
-    </section>  
-    <section class="contact--section" id="contact">
-      <div class="contact--intro">
-        <h1>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h1>
-      </div>
-
-      <form id="form" class="form--section" action="https://formspree.io/f/xbjwrqlv" method="post">
-        <div class="contact--ul--section desk--contact--section">
-          <div class="li--section">
-            <input type="text" class="input--section" name="name" placeholder="Full name" maxlength="30" required>
-          </div>
-          <div class="li-section">
-            <input id="email" type="email" class="input--section" name="email" placeholder="Email address" required>
-          </div>
-          <div class="li--section">
-            <textarea name="message" class="text--area" placeholder="Enter text here" maxlength="500" required></textarea>
-          </div>
-          <div class="error-msg"></div>
-          <div class="see--project">
-            <button type="submit" id="try" class="btn--style">Get in touch</button>
-          </div>
-        </div>
-      </form>
-
-      <div class="contact--section--icons"> 
-        <ul class="contact--social--icons"> 
-          <li>
-            <a href="https://github.com/joskalenda">
-              <img src="./assets/icons/github.png" alt="github account">
-            </a>
-          </li>
-          
-          <li>
-            <a href="https://www.linkedin.com/in/jos-kalenda-908069205">
-              <img src="./assets/icons/linkedin.png" alt="linkedin account">
-            </a>
-          </li>
-
-          <li>
-            <a href="**">
-              <img src="./assets/icons/peace.png" alt="peace">
-            </a>
-          </li>
-
-          <li>
-            <a href="https://www.twitter.com/in/joskalenda">
-              <img src="./assets/icons/twitter.png" alt="twitter account">
-            </a>
-          </li>
-          
-          <li>
-            <a href="#">
-              <img src="./assets/icons/medium.png" alt="meduim">
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section>
-  </main>
-  <footer class="footer--section">
-    <div class="footer--section--icons"> 
-      <ul class="footer--social--icons"> 
-        <li>
-          <a href="https://github.com/joskalenda">
-            <img src="./assets/icons/github.png" alt="github account">
+        <h2 class="intro-greet">
+          Hey There.
+          <br />
+          I'm Aziz
+        </h2>
+        <h2 class="intro-me">I’am a Software Developer</h2>
+        <p class="intro-text">
+          I can help you build a product, feature or website <br />
+          Look through some of my work and experience! <br />
+          If you like what you see and have a project you need coded, don’t
+          hestiate to contact me.
+        </p>
+        <div class="social">
+          <a
+            class="social-link"
+            href="https://github.com/SpaYco"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img
+              class="social-icon"
+              src="./media/svg/github.svg"
+              alt="GitHub Icon"
+            />
           </a>
-        </li>
+          <a
+            class="social-link"
+            href="https://www.linkedin.com/in/spayco"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img
+              class="social-icon"
+              src="./media/svg/linkedin.svg"
+              alt="LinkedIn Icon"
+            />
+          </a>
+          <a
+            class="social-link"
+            href="https://angel.co/spayco"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img
+              class="social-icon"
+              src="./media/svg/angel.svg"
+              alt="AngelList Icon"
+            />
+          </a>
+          <a
+            class="social-link"
+            href="https://twitter.com/iSpaYco"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img
+              class="social-icon"
+              src="./media/svg/twitter.svg"
+              alt="Twitter Icon"
+            />
+          </a>
+          <a
+            class="social-link"
+            href="https://spayco.medium.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img
+              class="social-icon"
+              src="./media/svg/medium.svg"
+              alt="Medium Icon"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="projects">
+        <h2>My Recent Work</h2>
+        <hr />
+        <div class="first-card">
+          <img
+            src="./media/png/ubrunning.png"
+            alt="UB-Running Screenshot"
+            class="first-card-img"
+          />
+          <div class="first-card-description">
+            <h2>UB Running</h2>
+            <p class="description blue-color">
+              A Platform game made with JavaScript using the Phaser framework
+            </p>
+            <ul class="project-stacks blue-color">
+              <li>HTML</li>
+              <li>SASS/CSS</li>
+              <li>JavaScript</li>
+              <li>WebPack</li>
+              <li>Babel</li>
+              <li>Phaser</li>
+            </ul>
+            <a
+              href="https://github.com/Spayco/UB-Running/"
+              class="link"
+              target="_blank"
+              rel="noreferrer noopener"
+              >See project</a
+            >
+          </div>
+        </div>
+        <div class="card gtime">
+          <div class="card-description">
+            <h2>GTime</h2>
+            <p class="white-description">
+              This is the front-end of a website that tracks your game stats, so
+              you can see how much you are improving. Built with JavaScript.
+              (The link to the back-end API can be found in the GitHub repo)
+            </p>
+            <ul class="project-stacks card-stacks">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>redux</li>
+              <li>Jest</li>
+              <li>API</li>
+            </ul>
+            <a
+              href="https://github.com/Spayco/gtime-frontend/"
+              class="card-link link"
+              target="_blank"
+              rel="noreferrer noopener"
+              >See project</a
+            >
+          </div>
+        </div>
+        <div class="card weather">
+          <div class="card-description">
+            <h2>Weather App</h2>
+            <p class="white-description">
+              This is a responsive weather app made with JavaScript that displays the temperature, humidity and timezone for cities around the world.
+            </p>
+            <ul class="project-stacks card-stacks">
+              <li>HTML</li>
+              <li>SASS/CSS</li>
+              <li>JavaScript</li>
+              <li>WebPack</li>
+              <li>Babel</li>
+            </ul>
+            <a
+              href="https://github.com/Spayco/Weather-App/"
+              class="card-link link"
+              target="_blank"
+              rel="noreferrer noopener"
+              >See project</a
+            >
+          </div>
+        </div>
+        <div class="card conference">
+          <div class="card-description">
+            <h2>Conference page</h2>
+            <p class="white-description">
+              This is a sample conference page made using HTML and CSS.
+            </p>
+            <ul class="project-stacks card-stacks">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>SASS</li>
+            </ul>
+            <a
+              href="https://github.com/Spayco/Conference-page/"
+              class="card-link link"
+              target="_blank"
+              rel="noreferrer noopener"
+              >See project</a
+            >
+          </div>
+        </div>
+        <div class="card katchy">
+          <div class="card-description">
+            <h2>Katchy</h2>
+            <p class="white-description">
+              This is a website for recipes made with Ruby on Rails
+            </p>
+            <ul class="project-stacks card-stacks">
+              <li>Ruby</li>
+              <li>Ruby on Rails</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>ERB</li>
+              <li>RSPec</li>
+            </ul>
+            <a
+              href="https://github.com/Spayco/katchy/"
+              class="card-link link"
+              target="_blank"
+              rel="noreferrer noopener"
+              >See project</a
+            >
+          </div>
+        </div>
         
-        <li>
-          <a href="https://www.linkedin.com/in/jos-kalenda-908069205">
-            <img src="./assets/icons/linkedin.png" alt="linkedin account">
+      </div>
+      <div class="about-me">
+        <section class="about-me-section">
+          <h2>About me</h2>
+          <p class="about-me-text">
+            I am a skilled Full-Stack Web Developer who loves making pages with
+            beautiful UI. I have studied at Microverse, and I am experienced in
+            remote work.
+            <br />
+            I've also been a good helping hand to a lot of developers in
+            different communities!
+            <br />
+            if you'd like to get in contact about potential job opportunities,
+            please reach out!
+          </p>
+          <a
+            href="https://docs.google.com/document/d/1lYq0Kb50TujzJzDWGobIchRI17JMnAiZMF9OBQgNU68/edit?usp=sharing"
+            class="link"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            Get my resume
           </a>
-        </li>
+          <img class="about-me-icon" src="./media/svg/icon-2.svg" alt="Icon" />
+        </section>
+        <hr />
+        <div class="about-me-section stacks">
+          <ul>
+            <li class="languages list-title">
+              Languages
+              <ul>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>Ruby</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Sass</li>
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li class="frameworks list-title">
+              Frameworks
+              <ul>
+                <li>React & Redux</li>
+                <li>Material-UI</li>
+                <li>Jest</li>
+                <li>Bootstrap</li>
+                <li>Ruby on Rails</li>
+                <li>RSPec</li>
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li class="skills list-title">
+              Skills
+              <ul>
+                <li>GitHub</li>
+                <li>CodePen</li>
+                <li>GitLab</li>
+                <li>Terminal</li>
+                <li>WSL</li>
+                <li>Remote Pair-Programming</li>
+                <li>Teamwork</li>
+                <li>Mentoring</li>
+                <li>Code Reviews</li>
+                <li>Mobile/Responsive Development</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
 
-        <li>
-          <a href="**">
-            <img src="./assets/icons/peace.png" alt="peace">
-          </a>
-        </li>
-
-        <li>
-          <a href="https://www.twitter.com/in/joskalenda">
-            <img src="./assets/icons/twitter.png" alt="twitter account">
-          </a>
-        </li>
-        
-        <li>
-          <a href="#">
-            <img src="./assets/icons/medium.png" alt="meduim">
-          </a>
-        </li>
-      </ul>
-    </div>
-    <ul class="mail">
-      <li>
-        <a href="#">joskalenda3@gmail.com</a>
-      </li> 
-    </ul>
-  </footer> 
-  <div class="nav-overlay off-display">
-    <div class="nav-mobile-container">
-      <div class="xicon-image"><img src="/assets/icons/xicon.png" alt="Exit Icon"></div>
-      <ul class="overlay-menu d-flex">
-        <li class="overlay-link"><a href="#works">Portoflio</a></li>
-        <li class="overlay-link"><a href="#about">About</a></li>
-        <li class="overlay-link"><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-  <script src="./js/script.js"></script>
-  <script src="./js/popup.js"></script>
-  <script src="./js/validation.js"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/e966a3bd22.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
