@@ -31,6 +31,10 @@ header {
   line-height: 24px;
 }
 
+#desktop-nav {
+  display: none;
+}
+
 .menu-bars {
   background: transparent;
   border: none;
@@ -324,4 +328,41 @@ li {
 
 .skills {
   list-style: inside url("../media/svg/circle.svg");
+}
+
+.off-display {
+  display: none;
+}
+
+.nav-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background: rgba(0, 0, 0, 0.848);
+}
+
+.scroll {
+  overflow: hidden;
+}
+
+.overlay-menu {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 40px;
+}
+
+.overlay-menu li a {
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 600;
+  color: #eff6f3d7;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+}
+
+.xicon-image {
+  text-align: right;
+  padding: 38px;
 }
