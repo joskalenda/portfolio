@@ -5,6 +5,14 @@
 > Personal portfolio website
 ## Description 
 
+| Mobile version representation.|
+|---------------------------------------|
+|![screenshot](./assets/mobile.png/)|
+
+| Desktop version representation. |
+|---------------------------------------|
+|![screenshot](./assets/desktop.png)|
+
 > Project's principle obecjtives: 
 
 - Use CSS Grid & Flexbox to place elements on the page.
@@ -21,7 +29,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link(unavailable)]()
+[Live Demo Link](https://joskalenda.github.io/portfolio/)
 
 ## Authors
 

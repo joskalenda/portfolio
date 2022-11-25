@@ -366,3 +366,9 @@ li {
   text-align: right;
   padding: 38px;
 }
+
+@media screen and (min-width: 920px) {
+  .nav-humburger {
+    display: none;
+  }
+}
